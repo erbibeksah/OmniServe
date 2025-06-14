@@ -1,0 +1,12 @@
+@ServiceMatrix.Api_HostAddress = http://localhost:5211
+
+GET {{ServiceMatrix.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+
+GET {{ServiceMatrix.Api_HostAddress}}/api/v1/Service/SignIn/
+Accept: application/json
+
+###
